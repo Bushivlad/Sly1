@@ -19,10 +19,10 @@
     'use strict';
 
     //Used for reading solana data
-    let customReadRPCs = [];
+	    let customReadRPCs = ['https://virulent-bitter-tab.solana-mainnet.quiknode.pro/b36b9f76d3ff292ef6fd3d0b80faccba7163ef3b/','https://solana-mainnet.api.syndica.io/api-token/2uDcVALMhW4j7c87RY3WLEceVC4aKCLxB4ov9HC5YdSWFnay5yi6JX2CFf9wMhPurJjuQzQCYxJwTgpk9bWjBAdmVK5e6pXi6YBwf6yPw3TNqHZnedfhFMFzrtahDK4qDWSuiuvikvXTTUFpLZMWqTRLEngocACpDctdpZQiKSCjDuUCwfmBL6xANyLLW8CbXgyqEQjfb6rJpegBRmPwjxgjrPCo6SkeJMWNtbF14rUvw4xknhXEN9BAQcCCFqmgmzUhDSZWD2gFzkxp79HBVs7AwRSxp3it7UQZXYoPuQeUPmH6mDdTiGnSkHxyEN4DJMbQRKcMLRmeskvEBYvyXLMJSBgYA4i7XF1SYhutywjv4nBfvcPxod4kBJi7Pd33Js4dQ9DGPsXv8rtomj1HX74eZEN3RrRNi8no8KL2deFHbDSsyb4DJPZL4hq1UJBRvw962H5eZbhrCc4sywFjG79xY8W5g1SKH9cDLFriYuYP4u6kaeubnkkx1Hrm5']
 
     //Used for pushing transactions to solana chain
-    let customWriteRPCs = [];
+    let customWriteRPCs = ['https://virulent-bitter-tab.solana-mainnet.quiknode.pro/b36b9f76d3ff292ef6fd3d0b80faccba7163ef3b/','https://solana-mainnet.api.syndica.io/api-token/2uDcVALMhW4j7c87RY3WLEceVC4aKCLxB4ov9HC5YdSWFnay5yi6JX2CFf9wMhPurJjuQzQCYxJwTgpk9bWjBAdmVK5e6pXi6YBwf6yPw3TNqHZnedfhFMFzrtahDK4qDWSuiuvikvXTTUFpLZMWqTRLEngocACpDctdpZQiKSCjDuUCwfmBL6xANyLLW8CbXgyqEQjfb6rJpegBRmPwjxgjrPCo6SkeJMWNtbF14rUvw4xknhXEN9BAQcCCFqmgmzUhDSZWD2gFzkxp79HBVs7AwRSxp3it7UQZXYoPuQeUPmH6mDdTiGnSkHxyEN4DJMbQRKcMLRmeskvEBYvyXLMJSBgYA4i7XF1SYhutywjv4nBfvcPxod4kBJi7Pd33Js4dQ9DGPsXv8rtomj1HX74eZEN3RrRNi8no8KL2deFHbDSsyb4DJPZL4hq1UJBRvw962H5eZbhrCc4sywFjG79xY8W5g1SKH9cDLFriYuYP4u6kaeubnkkx1Hrm5']
 
     let saRPCs = [
         'https://rpc.ironforge.network/mainnet?apiKey=01HZFVRZ4A5WVX2NDA4PCPHJ7N',
